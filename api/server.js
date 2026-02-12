@@ -14,7 +14,7 @@ app.post("/send", async (req, res) => {
   try {
     await resend.emails.send({
       from: "info@mypospro.org",
-      to: "santoro.emilio75@gmail.com",
+      to: "myposproservice@gmail.com",
       subject: "Nuova richiesta dal sito",
       html: `
         <h3>Nuovo contatto</h3>
